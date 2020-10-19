@@ -1,6 +1,7 @@
 import api from './api-service.js';
 import createMarkup from './markups-creator.js';
 const debounce = require('debounce');
+import { baseInfo } from './notification.js';
 
 const refs = {
   input: document.querySelector('#search-form'),
